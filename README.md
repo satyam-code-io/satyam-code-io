@@ -1,16 +1,45 @@
-## Hi there 👋
+☕ Java Learning Journey✨
 
-<!--
-**satyam-code-io/satyam-code-io** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my Java learning repository! 👋
 
-Here are some ideas to get you started:
+This repository contains my Java practice programs, concepts, and small projects that I have worked on while strengthening my programming fundamentals.🌟
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📚 What I've Learned👉
+
+🔸Java Basics & Syntax
+🔸Variables & Data Types
+🔸Operators
+🔸Conditional Statements
+🔸Loops
+🔸Functions / Methods
+🔸Arrays
+🔸2D Array
+🔸Strings
+🔸Pattern Problems
+🔸Searching & Sorting
+🔸Basic Problem Solving
+
+
+📂 Repository Structure✨
+
+This repository contains 12+ Java practice files, covering different concepts and problem-solving exercises.
+
+I have tried to keep the programs simple and organized so that I can easily revise them whenever needed.
+
+🚀 What's Next?
+
+I've completed my Java all fundamentals and am now moving towards🌟
+
+👉Recursion → OOPs → DSA → Advanced Java → Java Full Stack
+
+The goal is not just to learn Java, but to become better at logic building and problem solving through consistent practice.
+
+🎯 My Approach:-
+
+👉Learn → Practice → Make mistakes → Debug → Improve»
+
+This repository is a record of my progress as I continue learning and building with Java.
+
+⭐ More projects and problems will be added as I move forward.
+
+Learning Java, one problem at a time. ☕💻
