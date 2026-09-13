@@ -1,6 +1,6 @@
 //# For printing the transpose of a matrix:-
 // import java.util.*;
-// public class 2DArrays {
+// public class Arrays {
 //     public static void main(String[]args){
 
 //         Scanner sc=new Scanner(System.in);
@@ -32,7 +32,7 @@
  
 //# For printing the transpose of a matrix:-
 import java.util.*;
-public class 2DArrays {
+public class Arrays {
     public static void main(String[]args){
 
         Scanner sc=new Scanner(System.in);
