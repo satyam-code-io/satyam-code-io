@@ -1,17 +1,24 @@
 import java.util.Scanner;
 public class recursion3{
-    public static void printreverse(int i,String s,int n,String x) {
-        if (i ==n-1){
+    public static int first=-1;
+    public static int last=-1;
+    public static void printreverse(int i,String s,int n,String x){
+        if(i==n){
+            System.out.println("first occurence of "+x+" is at index:-"+first);
+            System.out.println("last occurence of "+x+" is at index:-"+last);
             return;
         }
-        if(s.charAt(i)=='x'){
-            System.out.println("the first occurence of the given  element at :-"+" "+i);
+        char ch=s.charAt(i);
+        if(ch==x.charAt(0)){
+            if(first==-1){
+                first=i;
+            }
+            else{
+                last=i;
+            }
         }
-      
-        printreverse(i+1,s,n,x);;
-        if(s.charAt(i)=='x'){
-            System.out.println("the last occurence of the given  element at :-"+" "+i);
-        }
+        
+        printreverse(i+1,s,n,x);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -20,7 +27,7 @@ public class recursion3{
         System.out.println("enter the element whosse first and last occurence you want :-");
         String x=sc.next();
         int n=s.length();
-        printreverse(0,s,n,"x");
+        printreverse(0,s,n,x);
     }
 
 }
