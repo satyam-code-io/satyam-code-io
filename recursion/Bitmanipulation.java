@@ -1,23 +1,24 @@
-// // 1.Get bit of a no:-
+package recursion;
+// 1.Get bit of a no:-
 
-//  import java.util.*;
-//  public class Bitmanipulation{
-//      public static void main(String[]args){
-//          Scanner sc=new Scanner(System.in);
-//         int n=sc.nextInt();
-//          int pos=sc.nextInt();
-//         int a=sc.nextInt();
-//         int bitmask=a<<pos;
-//         if((bitmask & n)==0){
-//             System.out.println("bit was zero");
+ import java.util.*;
+ public class Bitmanipulation{
+     public static void main(String[]args){
+         Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int pos=sc.nextInt();
+        int a=sc.nextInt();
+        int bitmask=a<<pos;
+        if((bitmask & n)==0){
+            System.out.println("bit was zero");
 
-//         }else{
-//             System.out.println("bit was one");
+        }else{
+            System.out.println("bit was one");
             
-//         }
+        }
 
-//     }
-// }
+    }
+}
 
 //2. Set bit of a no:-
 //        int newno=(bitmask | n);

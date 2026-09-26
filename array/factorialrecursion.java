@@ -1,3 +1,4 @@
+package array;
 import java.util.*;
 public class factorialrecursion {
     public static int calcfactorial(int n){

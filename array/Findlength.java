@@ -1,3 +1,4 @@
+package array;
 //# find the total length of the given array of string:-
 // import java.util.*;
 // public class Findlength{ {

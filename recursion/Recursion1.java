@@ -1,4 +1,7 @@
-public class Recursion {
+// # using recursion find the sum of n natural no upto n:- 
+package recursion;
+import java.util.*;
+public class Recursion1 {
     public static void printNumb(int i,int n,int sum){
         if(i==n){
             sum=sum+i;
@@ -10,7 +13,10 @@ public class Recursion {
         }
 
     public static void main(String[]args){
-        printNumb(1,5,0 );
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the value of n upto you have to find the sum:-");
+        int n=sc.nextInt();
+        printNumb(1,n,0 );
 
 
     }

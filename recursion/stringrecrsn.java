@@ -1,9 +1,9 @@
+package recursion;
 import java.util.*;
 public class stringrecrsn {
     public static void addrecrsn(int i,String s,String str,String a,char b){
         if(i==s.length()){
-            str+=a;
-            System.out.println(str);
+            System.out.println(str+" "+a);
             return;
         }
         if(s.charAt(i)==b){
@@ -15,7 +15,7 @@ public class stringrecrsn {
     }
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter the string that you want to reverse for your your own choice :-");
+        System.out.println("enter the string:-");
         String s=sc.nextLine();
         String str="";
         String a="";

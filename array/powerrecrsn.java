@@ -1,3 +1,4 @@
+package array;
 // import java.util.Scanner;
 // public class powerrecrsn {
 //     public static int findpow(int n,int x){

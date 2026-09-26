@@ -1,3 +1,4 @@
+package array;
 //# For printing the transpose of a matrix:-
 // import java.util.*;
 // public class Arrays {
@@ -32,7 +33,7 @@
  
 //# For printing the transpose of a matrix:-
 import java.util.*;
-public class Arrays {
+public class arrayquestions {
     public static void main(String[]args){
 
         Scanner sc=new Scanner(System.in);

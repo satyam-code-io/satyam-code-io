@@ -1,3 +1,4 @@
+package array;
 // #find the index of an element in 2d array:-
 // import java.util.*;
 // public class Index2darray{

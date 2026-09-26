@@ -1,5 +1,5 @@
+package recursion;
 import java.util.Scanner;
-
 public class recursion2{
     public static void towerofhanoi(int n,String src,String helper,String destination){
         if(n==1){

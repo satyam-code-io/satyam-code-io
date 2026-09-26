@@ -2,7 +2,7 @@
 //# For checking the array is sorted or not:-            
 // import java.util.*;
 
-// public class Array {
+// public class arrayquestion {
 //     public static void main(String[]args){
 
 //         Scanner sc=new Scanner(System.in);
