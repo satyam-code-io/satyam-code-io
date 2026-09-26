@@ -17,7 +17,7 @@ This repository contains my Java practice programs, concepts, and small projects
 🔸Strings
 🔸Pattern Problems
 🔸Searching & Sorting
-🔸Basic Problem Solving
+🔸Recursion
 
 
 📂 Repository Structure✨
