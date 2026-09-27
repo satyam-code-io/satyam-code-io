@@ -1,4 +1,5 @@
-package array;
+package recursion;
+
 import java.util.*;
 public class factorialrecursion {
     public static int calcfactorial(int n){
@@ -8,7 +9,6 @@ public class factorialrecursion {
         int fact=calcfactorial(n-1);
         int factorial=n*fact;
         return factorial;
-        calcfactorial(n-1);
         }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

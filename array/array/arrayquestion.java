@@ -1,4 +1,4 @@
-package array; --- IGNORE ---
+package array;
 //# For checking the array is sorted or not:-            
 // import java.util.*;
 
